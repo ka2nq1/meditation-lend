@@ -1,0 +1,22 @@
+.c8-cont {
+    display: flex;
+    gap: 1.8rem;
+    padding: 3.7rem 0 4.3rem 1.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    background: radial-gradient(55.45% 129.03% at 53.12% 21%, rgb(255, 255, 255)  -600%, rgba(28, 28, 28, 0.7) 90%);
+    margin-top: 5rem;
+}
+
+.c8-cont img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.c8-cont p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 138%;
+    color: #fff;
+}

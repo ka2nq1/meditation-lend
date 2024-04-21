@@ -1,0 +1,44 @@
+.c3-img {
+    width: 35.9rem;
+    height: 57.2rem;
+    margin-right: -2rem;
+    pointer-events: none;
+    margin-bottom: 4rem;
+}
+
+.c3-list_title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 138%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2.4rem;
+}
+
+.c3-list {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.c3-list_item {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.c3-list_item img {
+    margin-top: 0.3rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.c3-list_item p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 115%;
+    color: #fff;
+}

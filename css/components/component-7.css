@@ -1,0 +1,15 @@
+.component-7 img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.component-7 p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 138%;
+    text-align: center;
+    color: #fff;
+}

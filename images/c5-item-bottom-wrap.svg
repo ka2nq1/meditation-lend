@@ -1,0 +1,24 @@
+<svg width="345" height="192" viewBox="0 0 345 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_4121_51)">
+<path d="M2 2H343V185C343 187.761 340.761 190 338 190H7C4.23857 190 2 187.761 2 185V2Z" fill="#1C1C1C"/>
+<path d="M2 2H343V185C343 187.761 340.761 190 338 190H7C4.23857 190 2 187.761 2 185V2Z" fill="url(#paint0_radial_4121_51)" fill-opacity="0.15"/>
+<path d="M2 1H1V2V185C1 188.314 3.68629 191 7 191H338C341.314 191 344 188.314 344 185V2V1H343H2Z" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+<path d="M2 1H1V2V185C1 188.314 3.68629 191 7 191H338C341.314 191 344 188.314 344 185V2V1H343H2Z" stroke="url(#paint1_radial_4121_51)" stroke-opacity="0.53" stroke-width="2"/>
+</g>
+<defs>
+<filter id="filter0_b_4121_51" x="-40" y="-40" width="425" height="272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="20"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4121_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4121_51" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_4121_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(183.125 41.48) rotate(92.3892) scale(242.731 183.887)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_4121_51" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(179.815 186.217) rotate(-90) scale(101.858 93.5343)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

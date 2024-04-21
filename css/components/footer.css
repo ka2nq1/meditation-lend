@@ -1,0 +1,22 @@
+footer {
+    padding-bottom: 18rem;
+    padding-top: 8rem;
+}
+
+footer .top-wrap {
+    margin-bottom: 5rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #fff;
+}
+
+footer .bottom-wrap {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 125%;
+    width: 31.7rem;
+    color: #fff;
+}

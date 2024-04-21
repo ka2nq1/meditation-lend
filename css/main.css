@@ -1,0 +1,225 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Forum", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 400 2.636185981vw var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+
+@media (min-width: 380px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+}
+
+body {
+    background: #000;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    max-width: 380px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 5.3rem;
+    line-height: 87%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding-top: 8rem;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+}
+
+.full-width {
+    margin-left: -4.6rem;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    width: calc(100% + 9.2rem);
+}
+
+.title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.subtitle {
+    text-align: center;
+    color: #000;
+    margin-top: 3rem;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 100%;
+    /* height: 9.5rem; */
+    margin: 0 auto;
+}
+
+.btn {
+    width: 30.3rem;
+    height: 7.7rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.btn p {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b7950;
+}
+
+.btn1 {
+    margin: 1rem 0 7.2rem 0;
+}
+
+.underline {
+    text-decoration-line: underline !important;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.accent {
+    font-weight: 600;
+    color: #ffeeb4;
+}
+
+#shadow-host-companion {
+    padding: 0 !important;
+}
+
+.bg1 {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url(../images/bg2.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.fixed-btn {
+    z-index: 10;
+    position: fixed;
+    bottom: -0.3rem;
+    transform: translate(-50%);
+    left: 50%;
+    width: 100%;
+    padding: 1rem 3.8rem 1rem 3.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background: radial-gradient(55.45% 129.03% at 53.12% 21%, rgb(255, 255, 255) -600%, rgba(28, 28, 28, 1) 90%);
+    max-width: 380px;
+    display: none;
+}
+
+.fixed-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.fixed-timer .timer {
+    margin: 0;
+}
+
+.fixed-timer .hours,
+.fixed-timer .minutes,
+.fixed-timer .seconds {
+    height: 3.1rem;
+    width: 6rem;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 92%;
+    text-align: center;
+    color: #141414;
+}
+
+.fixed-timer p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: #fff;
+}
+
+
+.fixed-btn .btn {
+    height: 6.5rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b7950;
+    box-shadow: 0 0.4rem 7rem -0.5rem rgba(255, 238, 180, 0.5);
+    border-radius: 0.5rem;
+}
+
+.fixed-btn .btn img {
+    height: 6.5rem;
+}
