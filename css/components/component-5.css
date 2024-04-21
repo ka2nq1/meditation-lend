@@ -142,7 +142,7 @@
 
 audio {
     width: 29.2rem;
-    height: 5rem;
+    height: 100%;
 }
 
 audio::-webkit-media-controls-panel {
