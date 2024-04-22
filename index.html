@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/components/slider.css">
     <link rel="stylesheet" href="css/components/faq.css">
     <link rel="stylesheet" href="css/components/footer.css">
+    <link rel="stylesheet" href="css/components/player.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -36,6 +37,7 @@
     <script defer src="js/accordeon.js"></script>
     <script defer src="js/btn.js"></script>
     <script defer src="js/timer.js"></script>
+    <script defer src="js/player.js"></script>
     <script defer src="js/programToggle.js"></script>
     <title>Document</title>
 </head>
@@ -205,7 +207,21 @@
                     <p class="c5-list_meditation--text">Медитація</p>
                     <p class="c5-list_item--title">я жінка</p>
                     <div class="c5-item_audio">
-                        <audio controls src="audio/system-notification-199277.mp3"></audio>
+                        <!-- <audio controls src="audio/system-notification-199277.mp3"></audio> -->
+                        <div class="custom-audio-player">
+                            <div class="audio-controls">
+                                <button id="playPauseBtn" class="play-btn">Play</button>
+                                <div class="progress-container">
+                                    <input type="range" id="seekSlider" class="seek-slider" value="0" min="0" step="1">
+                                    <!-- <span id="currentTime" class="current-time">0:00</span> -->
+                                    <span id="duration" class="duration">0:00</span>
+                                </div>
+                                <button id="muteBtn" class="mute-btn">Mute</button>
+                                <input type="range" id="volumeSlider" class="volume-slider" value="100" min="0"
+                                    max="100" step="1">
+                            </div>
+                            <audio id="audio" src="audio/system-notification-199277.mp3"></audio>
+                        </div>
                     </div>
                     <p class="c5-list_demo--text">демо версія</p>
                 </div>
@@ -516,7 +532,8 @@
     </div>
     <footer class="container">
         <div class="top-wrap">
-            <p>ФОП Мішина Анастасія<br>ЄДРПОУ 3470312122<br><br>+380976552978<br><a href="mailto:tech.edsystem@gmail.com">tech.edsystem@gmail.com</a><br><br><span
+            <p>ФОП Мішина Анастасія<br>ЄДРПОУ 3470312122<br><br>+380976552978<br><a
+                    href="mailto:tech.edsystem@gmail.com">tech.edsystem@gmail.com</a><br><br><span
                     class="underline">Політика конфіденційності<br>Публічна оферта</span></p>
         </div>
         <div class="bottom-wrap">

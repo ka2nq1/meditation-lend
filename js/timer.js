@@ -31,7 +31,7 @@ function updateTimer() {
                     seconds = 59;
                 } else {
                     // Таймер завершено
-                    clearInterval(timerInterval);
+                    clearInterval(timerIntervalTimer);
                     // alert('Час вийшов!');
                     return;
                 }
@@ -47,4 +47,4 @@ function updateTimer() {
 }
 
 // Оновлюємо таймер кожну секунду
-let timerInterval = setInterval(updateTimer, 1000);
+let timerIntervalTimer = setInterval(updateTimer, 1000);
